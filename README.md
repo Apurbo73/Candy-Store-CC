@@ -1,4 +1,4 @@
-﻿# Candy-Store CC
+﻿# Candy Store CC
 
 This C++ program reads multiple test cases and performs a simple calculation based on two integers `x` and `y`. Let’s go through it step by step:
 
