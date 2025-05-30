@@ -86,10 +86,8 @@ It's like a **billing or cost calculation** system:
 * If you want to consume more than `x` units (like a basic quota), extra usage is charged at a **higher rate**.
 
 ---
+This C++ program reads several test cases. For each one, it takes two numbers, `x` and `y`. If `x` is greater than `y`, it just prints the value of `y`.
 
-Let me know if you'd like this logic as a [flowchart](f) or in [Python version](f).
+If `x` is less than or equal to `y`, it calculates a cost: the first `x` items cost 1 each, and the extra items (`y - x`) cost 2 each. Then it prints the total cost.
 
-This C++ program processes multiple test cases, each involving two integers `x` and `y`. For each case, if `x > y`, it simply prints `y`, implying a direct cost of 1 unit per item up to `y`. This may represent a scenario where consuming up to a certain limit is cheaper or flat-rated.
-
-However, if `x <= y`, the program calculates a total cost where the first `x` units are charged at 1 unit each, and the extra `y - x` units are charged at double the rate (2 units each). The result reflects tiered pricing: standard cost for the first `x` units and a penalty or premium for any excess usage beyond that.
 
