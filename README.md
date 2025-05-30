@@ -88,3 +88,8 @@ It's like a **billing or cost calculation** system:
 ---
 
 Let me know if you'd like this logic as a [flowchart](f) or in [Python version](f).
+
+This C++ program processes multiple test cases, each involving two integers `x` and `y`. For each case, if `x > y`, it simply prints `y`, implying a direct cost of 1 unit per item up to `y`. This may represent a scenario where consuming up to a certain limit is cheaper or flat-rated.
+
+However, if `x <= y`, the program calculates a total cost where the first `x` units are charged at 1 unit each, and the extra `y - x` units are charged at double the rate (2 units each). The result reflects tiered pricing: standard cost for the first `x` units and a penalty or premium for any excess usage beyond that.
+
